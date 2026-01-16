@@ -1,5 +1,7 @@
 # FOMO300K and FOMO60K Preprocessing
 
+**Links**: [[Paper]](https://arxiv.org/abs/2506.14432) | [[Pretraining Code]](https://github.com/Sllambias/asparagus) | [[FOMO300K]](https://huggingface.co/datasets/FOMO-MRI/FOMO300K) | [[FOMO60K]](https://huggingface.co/datasets/FOMO-MRI/FOMO60K)
+
 This repository contains the preprocessing scripts to reproduce the FOMO300K and FOMO60K datasets described in the paper:
 
 **A large-scale heterogeneous 3D magnetic resonance brain imaging dataset for self-supervised learning**
