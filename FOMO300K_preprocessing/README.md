@@ -2,7 +2,7 @@
 
 ## Preprocessing Scripts
 
-The complete set of 37 preprocessing scripts used to reproduce the FOMO300K dataset as described in the paper are available [here](https://github.com/Sllambias/asparagus_preprocessing/tree/main/asparagus_preprocessing/datasets_pretraining). FOMO300K comprises the first 37 datasets named sequentially from `PT001_DatasetName` through `PT037_DatasetName`.
+The complete set of 36 preprocessing scripts used to reproduce the FOMO300K dataset as described in the paper are available [here](https://github.com/Sllambias/asparagus_preprocessing/tree/main/asparagus_preprocessing/datasets_pretraining). FOMO300K comprises the first 36 datasets named sequentially from `PT001_DatasetName` through `PT036_DatasetName`.
 ### Usage
 
 To reproduce the exact FOMO300K dataset, run each script with the following flags:
@@ -21,10 +21,11 @@ For scripts to analyze and visualize the FOMO300K dataset, see the [`scripts/`](
 ## Citation
 If you use the FOMO300K dataset or these preprocessing scripts, please cite:
 ```bibtex
-@article{Cerri2025,
-      title={{A large-scale heterogeneous 3D magnetic resonance brain imaging dataset for self-supervised learning}}, 
-      author={Stefano Cerri* and Asbjørn Munk* Jakob Ambsdorf and Julia Machnio and Sebastian Nørgaard Llambias and Vardan Nersesjan and Christian Hedeager Krag and Peirong Liu and Pablo Rocamora García and Mostafa Mehdipour Ghazi and Mikael Boesen and Michael Eriksen Benros and Juan Eugenio Iglesias and Mads Nielsen},
-      year={2025},
-      url={https://arxiv.org/abs/2506.14432}, 
+@article{Cerri2026large,
+  title={A large-scale heterogeneous 3D magnetic resonance brain imaging dataset for self-supervised learning},
+  author={Cerri, Stefano and Munk, Asbj{\o}rn and Llambias, Sebastian N{\o}rgaard and Ambsdorf, Jakob and Machnio, Julia and Nersesjan, Vardan and Hedeager Krag, Christian and Liu, Peirong and Rocamora Garc{\'\i}a, Pablo and Mehdipour Ghazi, Mostafa and Boesen, Mikael and Benros, Michael Eriksen and Iglesias, Juan Eugenio and Nielsen, Mads},
+  journal={arXiv preprint arXiv:2506.14432},
+  year={2026},
+  url={https://arxiv.org/abs/2506.14432}
 }
 ```
